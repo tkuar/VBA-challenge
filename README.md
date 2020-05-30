@@ -6,6 +6,7 @@ wells_fargo_ptl.vbs, and lotto_numbers.vbs as a guide for
 the vba script VBAStocks
 
 Note:
-The vba script is written to run on the workbook as is. 
-I did not sort the data and assumed the data is sorted
-in a particular way.
+I manually sorted the data in the excel workbooks
+for each worksheet before I ran my vba script.
+  First, I sorted column B from smallest to largest.
+  Then, I sorted column A from A to Z.
