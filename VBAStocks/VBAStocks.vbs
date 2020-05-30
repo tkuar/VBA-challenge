@@ -166,14 +166,13 @@ Sub VBAStocks():
         ws.Cells(2, 17).Value = GreatInc
         ws.Cells(3, 17).Value = GreatDec
         ws.Cells(4, 17).Value = GreatVol
-        ' More Formatting
+        '-----------------------------------
+        '         MORE FORMATTING
+        '-----------------------------------
         ws.Cells(2, 17).NumberFormat = "0.00%"
         ws.Cells(3, 17).NumberFormat = "0.00%"
-
-
         ws.Columns("A:Q").AutoFit
         
     Next ws
     
-
 End Sub
